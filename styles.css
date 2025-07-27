@@ -1,0 +1,100 @@
+body {
+     background-color:black;
+}
+
+h1,h2{
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    color:white;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+#car {
+    width:500px;
+    justify-content: left;
+    left:0;
+    transition: left 4s ease-in-out;
+    position:relative;
+
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.car_button {
+    font-size:20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 50px;
+}
+
+.adventure-button{
+    display: flex;
+    align-items: center;
+    gap:60px;
+    padding: 40px;
+    margin: 0 auto;
+    position:relative;
+    overflow:hidden;
+}
+
+#map-container {
+    display:none;
+    text-align: center;
+    margin-top: 40px;
+    opacity:0;
+    transition: opacity 1s ease-in;
+}
+#map-container.show {
+    display: block;
+    opacity:1;
+}
+#map {
+    width: 100%;
+    max-width:900px;
+    border-radius: 5px;
+
+}
+
+#map_h2, #menu {
+    display:none;
+    opacity:0;
+    transition: opacity 1s ease-in;
+    text-align:center;
+
+}
+
+#map_h2.show, #menu.show {
+    display: block;
+    opacity:1;
+    margin-bottom:60px;
+}
+
+
+#menu a {
+    color:azure;
+    font-size: 20px;
+}
+
+#menu {
+padding: 20px 20px;
+margin-top:30px;
+}
+
+#menu a:hover  {
+    color:#506fb8;
+    text-decoration: none;
+    font-weight:bold;
+
+}
