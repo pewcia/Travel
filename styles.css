@@ -180,6 +180,52 @@ background-repeat: no-repeat;
 max-width:1200px;
 margin: 0 auto;
 }
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+    padding-top:10px;
+}
+footer {
+    background-image: linear-gradient(#1d1916bf, rgba(12, 12, 14, 0.589)), url("/images/nature2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(245, 243, 239);
+
+}
+footer li {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+footer p{
+    opacity:0.9;
+}
+
+footer ul {
+    padding:0;
+}
+footer a {
+    color:rgb(240, 205, 176);
+    opacity:0.8;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+footer a:hover{
+    color:#506fb8;
+    font-weight: bold;
+    opacity:0.99
+}
+footer .section {
+    max-width:1200px;
+
+
+}
+footer h1{
+    line-height:1.5;
+}
 
 .container-text {
     font-weight:600;
@@ -189,7 +235,7 @@ margin: 0 auto;
 }
 
 #top-places {
-    background-color:#aa6d3c;
+    background-color:#ebcb9b;
     padding:40px 20px;
     text-align: center;
      min-height: 100px;
