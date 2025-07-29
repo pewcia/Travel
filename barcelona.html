@@ -1,11 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="styles.css" rel="stylesheet"/>
+  <title>Barcelona</title>
 </head>
 <body>
-    
+  <header>
+    <h1 class="pacifico-regular">Welcome in Barcelona</h1>
+    <button><a href="/index.html">Go back</a></button>
+  </header>
+
+  <div class="container my-5">
+    <div class="row text-center text-md-left d-flex align-items-stretch">
+      <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex align-items-stretch">
+        <div class="w-100">
+          <img src="images/barcelona1.jpg" class="img-fluid rounded shadow w-100 h-100 object-fit-cover" alt="Barcelona 1" />
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex align-items-stretch">
+        <div class="p-4 rounded w-100 d-flex flex-column justify-content-center description-text">
+          <p class="m-0">
+            Barcelona is a city full of color and creativity. It’s known for
+            <strong>beautiful architecture, beaches, and delicious food.</strong><br />
+            You can walk down La Rambla, admire Gaudí’s masterpieces, or enjoy the view from the hills.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 d-flex align-items-stretch">
+        <div class="w-100">
+          <img src="images/barcelona2.jpg" class="img-fluid rounded shadow w-100 h-100 object-fit-cover" alt="Barcelona 2" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container-text container p-4">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <br/>Visit the famous Sagrada Família, a unique basilica designed by Antoni Gaudí. Its towers and detailed façades are impressive and tell a story in stone. It’s still under construction, but already one of the most iconic landmarks in the world.
+
+          <br/><br/>Don’t miss Park Güell – a magical place with colorful mosaics, curved benches, and scenic views. It feels like stepping into a fairy tale.
+
+          <br/><br/>If you like the sea, head to Barceloneta Beach. You can sunbathe, swim, or just walk along the promenade with an ice cream in hand.
+        </div>
+        <div class="col-md-12 col-lg-6 p-2">
+          <img src="images/barcelona3.jpg" class="img-fluid rounded" />
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="d-none d-lg-block col-lg-6 p-2">
+          <img src="images/barcelona4.jpg" class="img-fluid rounded mb-4" />
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <br/><br/>Explore the Gothic Quarter with its narrow medieval streets, old churches, and cozy cafés. It’s a great place to feel the city’s history.
+
+          <br/><br/>You can also visit Camp Nou – the stadium of FC Barcelona. Even if you're not a football fan, the energy and passion of the fans are unforgettable.
+
+          <br/><br/>Barcelona is a perfect mix of history, creativity, and fun – there's something for everyone.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section>
+    <div class="container">
+      <section class="d-block p-3">
+        <h2 class="pacifico-regular p-2" id="top-places">Top places to visit</h2>
+        <div class="cards align-items-stretch">
+
+          <div class="box-cards">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.268506748216!2d2.171645876705937!3d41.40323887129794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a33cef0d6e5f%3A0xe6d578e3bf0f4bf1!2sMuseum%20of%20the%20Church%20of%20the%20Sagrada%20Familia!5e1!3m2!1spl!2snl!4v1753786798467!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="images/barcelona1.jpg" class="img-responsive" />
+            <p>Sagrada Família</p>
+            <button><a href="https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia">Learn more</a></button>
+          </div>
+
+          <div class="box-cards">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.6299151997273!2d2.1501195767063854!3d41.41449477129628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2ae52d441ab%3A0x899a0ba01aaace58!2sPark%20G%C3%BCell!5e1!3m2!1spl!2snl!4v1753786861732!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="images/guell.jpg" class="img-responsive" />
+            <p>Park Güell</p>
+            <button><a href="https://en.wikipedia.org/wiki/Park_G%C3%BCell">Learn more</a></button>
+          </div>
+
+          <div class="box-cards">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7375.255843413774!2d2.1889519481294855!3d41.37926928520329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3a809389627%3A0x1e8e0ed73f4965fb!2sBarceloneta%20Beach!5e1!3m2!1spl!2snl!4v1753787079741!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="images/beach1.jpg" class="img-responsive" />
+            <p>Barceloneta Beach</p>
+            <button><a href="https://en.wikipedia.org/wiki/Barceloneta_(Barcelona)">Learn more</a></button>
+          </div>
+
+          <div class="box-cards">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14750.030229792026!2d2.16717837514508!3d41.381392040807484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f8901e0681%3A0xb7e57ec538cda7af!2sBarri%20G%C3%B2tic%2C%20Ciutat%20Vella%2C%20Barcelona%2C%20Prowincja%20Barcelona%2C%20Hiszpania!5e1!3m2!1spl!2snl!4v1753787141359!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <img src="images/gothic.jpg" class="img-responsive" />
+            <p>Gothic Quarter</p>
+            <button><a href="https://en.wikipedia.org/wiki/Gothic_Quarter,_Barcelona">Learn more</a></button>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container p-2">
+      <section class="grid">
+        <div>
+          <h3>More about Barcelona</h3>
+          <ul>
+            <li><a href="https://www.aena.es/en/josep-tarradellas-barcelona-el-prat.html">Barcelona Airport</a></li>
+            <li><a href="https://www.tmb.cat/en/home">Public Transport (TMB)</a></li>
+            <li><a href="https://www.barcelonaturisme.com/">Tourist Information</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>About the website</h3>
+          <p>This page was created by <strong>Ewelina</strong> and it's open-source on <a href="https://github.com/pewcia/Travel">Github</a>.</p>
+        </div>
+      </section>
+    </div>
+  </footer>
 </body>
 </html>

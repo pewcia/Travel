@@ -1,11 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="styles.css" rel="stylesheet"/>
+  <title>Valencia</title>
 </head>
 <body>
-    
+  <header>
+    <h1 class="pacifico-regular">Welcome in Valencia</h1>
+    <button><a href="/index.html">Go back</a></button>
+  </header>
+
+  <div class="container my-5">
+    <div class="row text-center text-md-left d-flex align-items-stretch">
+      <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex align-items-stretch">
+        <div class="w-100">
+          <img src="images/valencia1.jpg" class="img-fluid rounded shadow w-100 h-100 object-fit-cover" alt="Valencia 1" />
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex align-items-stretch">
+        <div class="p-4 rounded w-100 d-flex flex-column justify-content-center description-text">
+          <p class="m-0">
+            Valencia is a city where tradition meets modern design. Known for
+            <strong>the Fallas festival, orange trees, and futuristic buildings,</strong><br />
+            it offers a perfect mix of beach, history, and innovation.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 d-flex align-items-stretch">
+        <div class="w-100">
+          <img src="images/valencia2.jpg" class="img-fluid rounded shadow w-100 h-100 object-fit-cover" alt="Valencia 2" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="container-text container p-4">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <br/>One must-see place is the City of Arts and Sciences. This modern complex includes a science museum, aquarium, IMAX cinema and more. It looks like a set from a science fiction movie!
+
+          <br/><br/>For a relaxing walk, explore the Turia Gardens – a former riverbed turned into a long park that stretches through the city. It’s full of greenery, playgrounds, and bike paths.
+
+          <br/><br/>The central market, Mercado Central, is a treat for the senses. You’ll find fresh produce, local delicacies, and the authentic flavors of Valencia.
+        </div>
+        <div class="col-md-12 col-lg-6 p-2">
+          <img src="images/valencia3.jpg" class="img-fluid rounded" />
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="d-none d-lg-block col-lg-6 p-2">
+          <img src="images/barcelona5.jpg" class="img-fluid rounded mb-4" />
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <br/><br/>For beach lovers, Malvarrosa Beach is the place to be. Soft sand, blue water, and cozy beach bars make it perfect for a sunny day.
+
+          <br/><br/>Also visit the old town, with landmarks like Valencia Cathedral and the Silk Exchange (La Lonja). The mix of Gothic, Baroque and Romanesque styles is fascinating.
+
+          <br/><br/>Valencia is a calm yet vibrant city full of flavors, sunshine, and Mediterranean charm.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section>
+    <div class="container">
+      <section class="d-block p-3">
+        <h2 class="pacifico-regular p-2" id="top-places">Top places to visit</h2>
+        <div class="cards align-items-stretch">
+
+          <div class="box-cards">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.642118020655!2d-0.35306532337176155!3d39.45487507161033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048e9d19b4381%3A0x62eb4407a5ebf894!2sCiudad%20de%20las%20Artes%20y%20las%20Ciencias!5e1!3m2!1spl!2snl!4v1753786515329!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="images/artscience.jpg" class="img-responsive" />
+            <p>City of Arts and Sciences</p>
+            <button><a href="https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences">Learn more</a></button>
+          </div>
+
+          <div class="box-cards">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60707.1172606092!2d-0.40215342537429366!3d39.46308038162791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4ea7d4e61b%3A0x1243035689245d8d!2sMercado%20Central%20de%20Valencia!5e1!3m2!1spl!2snl!4v1753786596133!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="images/mercado.jpg" class="img-responsive" />
+            <p>Mercado Central</p>
+            <button><a href="https://en.wikipedia.org/wiki/Mercado_Central_(Valencia)">Learn more</a></button>
+          </div>
+
+          <div class="box-cards">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7586.879175191373!2d-0.32827825217423706!3d39.4769316864244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604873c969b2ad%3A0x603becf922d66bf4!2sMalvarrosa%20beach%20(Valencia)!5e1!3m2!1spl!2snl!4v1753786657565!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="images/beach.jpg" class="img-responsive" />
+            <p>Malvarrosa Beach</p>
+            <button><a href="https://en.wikipedia.org/wiki/Playa_de_la_Malvarrosa">Learn more</a></button>
+          </div>
+
+          <div class="box-cards">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3793.5293425661275!2d-0.37804162337096586!3d39.475285771606465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4d59d6a49d%3A0xd390f51c980d0a7e!2sKatedra%20w%20Walencji!5e1!3m2!1spl!2snl!4v1753786689420!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="images/cathedral.jpg" class="img-responsive" />
+            <p>Valencia Cathedral</p>
+            <button><a href="https://en.wikipedia.org/wiki/Valencia_Cathedral">Learn more</a></button>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container p-2">
+      <section class="grid">
+        <div>
+          <h3>More about Valencia</h3>
+          <ul>
+            <li><a href="https://www.aena.es/en/valencia.html">Valencia Airport</a></li>
+            <li><a href="https://www.metrovalencia.es/">Metro Valencia</a></li>
+            <li><a href="https://www.visitvalencia.com/en">Tourist Information</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>About the website</h3>
+          <p>This page was created by <strong>Ewelina</strong> and it's open-source on <a href="https://github.com/pewcia/Travel">Github</a>.</p>
+        </div>
+      </section>
+    </div>
+  </footer>
 </body>
 </html>

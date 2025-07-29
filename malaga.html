@@ -3,9 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Malaga</title>
 </head>
 <body>
-    
+    <header>
+        <h1 class="pacifico-regular">Welcome in Malaga</h1>
+        <button><a href="/index.html">Go back</a></button>
+    </header>
+
+    <div class="container my-5">
+        <div class="row text-center text-md-left d-flex align-items-stretch">
+            <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex align-items-stretch">
+                <div class="w-100">
+                    <img src="images/malaga1.jpg" class="img-fluid rounded shadow w-100 h-100 object-fit-cover" alt="Malaga 1">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex align-items-stretch">
+                <div class="p-4 rounded w-100 d-flex flex-column justify-content-center description-text">
+                    <p class="m-0">
+                        Malaga is a sunny city on the Costa del Sol. It's known for
+                        <strong>beaches, historic sites, and great food.</strong><br>
+                        You can explore the old town, relax by the sea, and enjoy Andalusian culture.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex align-items-stretch">
+                <div class="w-100">
+                    <img src="images/malaga2.jpg" class="img-fluid rounded shadow w-100 h-100 object-fit-cover" alt="Malaga 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container-text container p-4">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <br/> Start your visit at the Alcazaba, an ancient Moorish fortress with great views.
+                    <br/><br/>Don't miss the Picasso Museum – Malaga is his birthplace!
+                    <br/><br/>For beach lovers, La Malagueta is a must. Swim, sunbathe or enjoy seafood at a chiringuito.
+                </div>
+                <div class="col-md-12 col-lg-6 p-2">
+                    <img src="/images/malaga3.jpg" class="img-fluid rounded"/>
+                </div>
+            </div>
+            <div class="row p-3">
+                <div class="d-none d-lg-block col-lg-6  p-2">
+                    <img src="images/malaga4.jpg" class="img-fluid rounded mb-4">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <br/><br/> Walk along Muelle Uno – a modern port area full of shops and cafes.
+                    <br/><br/>Climb up to Gibralfaro Castle for a stunning panorama of the city and coast.
+                    <br/><br/>Whether you're here for culture, beaches or food – Malaga won’t disappoint.
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="container">
+            <section class="d-block p-3">
+                <h2 class="pacifico-regular p-2" id="top-places">Top places to visit</h2>
+                <div class="cards align-items-stretch">
+
+                    <div class="box-cards">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.276284678896!2d-4.418441523475458!3d36.72113477226976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7eaa0bb22c5%3A0x84699d6bbfb8b267!2sAlcazaba!5e1!3m2!1spl!2snl!4v1753787842517!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <img src="/images/alcazaba.jpg" class="img-responsive">
+                        <p>Alcazaba</p>
+                        <button><a href="https://en.wikipedia.org/wiki/Alcazaba_of_M%C3%A1laga">Learn more</a></button>
+                    </div>
+
+                    <div class="box-cards">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31515.634468397624!2d-4.4236530457720455!3d36.71766347530332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7eef56a4e4d%3A0xc3ca39710b2203a7!2sPlaya%20de%20la%20Malagueta%20(M%C3%A1laga)!5e1!3m2!1spl!2snl!4v1753787581320!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <img src="/images/malaga6.jpg" class="img-responsive">
+                        <p>Picasso Museum</p>
+                        <button><a href="https://www.museopicassomalaga.org/en">Learn more</a></button>
+                    </div>
+
+                    <div class="box-cards">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31515.634468397624!2d-4.4236530457720455!3d36.71766347530332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7eef56a4e4d%3A0xc3ca39710b2203a7!2sPlaya%20de%20la%20Malagueta%20(M%C3%A1laga)!5e1!3m2!1spl!2snl!4v1753787581320!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <img src="/images/malaga3.jpg" class="img-responsive">
+                        <p>La Malagueta</p>
+                        <button><a href="https://en.wikipedia.org/wiki/La_Malagueta">Learn more</a></button>
+                    </div>
+
+                    <div class="box-cards">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.1581874962067!2d-4.411367700000001!3d36.72343740000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7c2d298c359%3A0xc4350594f8ef2191!2sZamek%20Gibralfaro!5e1!3m2!1spl!2snl!4v1753787337380!5m2!1spl!2snl" class="map_card" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <img src="/images/gibralfaro.jpg" class="img-responsive">
+                        <p>Gibralfaro Castle</p>
+                        <button><a href="https://en.wikipedia.org/wiki/Castillo_de_Gibralfaro">Learn more</a></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container p-2">
+            <section class="grid">
+                <div>
+                    <h3>More about Malaga</h3>
+                    <ul>
+                        <li><a href="https://www.aena.es/en/malaga-costa-del-sol.html">Malaga Airport</a></li>
+                        <li><a href="https://malagatransport.com/">Public transport</a></li>
+                        <li><a href="https://www.spain.info/en/destination/malaga/">Tourist information</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>About the website</h3>
+                    <p>This page was created by <strong>Ewelina</strong> and it's open-source on <a href="https://github.com/pewcia/Travel">Github</a></p>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
