@@ -340,6 +340,10 @@ margin: 0 auto;
   margin-top: auto;
 }
 
+.filter{
+    filter:  brightness(88%);
+}
+
 
 
 @media (max-width: 700px) {
