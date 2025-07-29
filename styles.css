@@ -3,6 +3,33 @@ body {
      font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+button{
+    padding: 11px 20px;
+    border-radius: 5px;
+    background-color: #c2beb9;
+    display:block;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size:18px;
+}
+
+button a {
+    color:black;
+    font-weight: bold;
+}
+
+button a:hover {
+    color:#506fb8;
+    text-decoration:none;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("/images/madrid2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
 h1{
     text-align: center;
     display:flex;
@@ -20,6 +47,90 @@ h2 {   text-align: center;
     font-size: 50px;
 
 }
+main {
+    background-color: white;
+    max-width:1200px;
+    margin:0 auto;
+    border-radius: 2px;
+
+}
+footer {
+    background-image: linear-gradient(#1d1916bf, rgba(12, 12, 14, 0.589)), url("/images/nature2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(245, 243, 239);
+    margin-top: 100px;
+    display:flex;
+    padding: 0 30px;
+    justify-content: center;
+
+}  
+footer li {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+footer p{
+    opacity:0.9;
+}
+
+footer ul {
+    padding:0;
+}
+footer a {
+    color:rgb(240, 205, 176);
+    opacity:0.8;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+footer a:hover{
+    color:#506fb8;
+    font-weight: bold;
+    opacity:0.99
+}
+footer .section {
+    max-width:1200px;
+}
+footer h1{
+    line-height:1.5;
+}
+
+.container {
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.header-cards{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-gap: 20px;
+    
+}
+
+.box-cards-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin:0;
+    border-radius: 10px;
+    text-align:center;
+    height:100%;
+    align-self:stretch;
+
+}
+
+.img-responsive-cards {
+    object-fit:cover;
+    width:100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
 #car {
     width:500px;
     justify-content: left;
@@ -76,25 +187,6 @@ h2 {   text-align: center;
 
 }
 
-button{
-    padding: 11px 20px;
-    border-radius: 5px;
-    background-color: #c2beb9;
-    display:block;
-    margin: 0 auto;
-    margin-top: 40px;
-    font-size:18px;
-}
-
-button a {
-    color:black;
-    font-weight: bold;
-}
-
-button a:hover {
-    color:#506fb8;
-    text-decoration:none;
-}
 #map_h2, #menu {
     display:none;
     opacity:0;
@@ -126,23 +218,16 @@ margin-top:30px;
     font-weight:bold;
 }
 
-header {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("/images/madrid2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 60px;
-    
-
-
-}
-
 .description-text {
   background-color: #bba184;
   opacity: 0.9;
   color: #000;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   min-height: 100%;
+  justify-content: center;
+  padding: 0 20px;
+
 }
 
 .object-fit-cover {
@@ -185,64 +270,20 @@ margin: 0 auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:20px;
-    padding-top:10px;
+    padding: 10px;
 }
-main {
-    background-color: white;
-    max-width:1200px;
-    margin:0 auto;
-    border-radius: 2px;
 
-}
-footer {
-    background-image: linear-gradient(#1d1916bf, rgba(12, 12, 14, 0.589)), url("/images/nature2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color:rgb(245, 243, 239);
-
-}
 .img-responsive {
     width:100%;
     height:200px;
     object-fit:cover;
 }
 
-footer li {
-    list-style: none;
-    margin:0;
-    padding:0;
-}
-
-footer p{
-    opacity:0.9;
-}
-
-footer ul {
-    padding:0;
-}
-footer a {
-    color:rgb(240, 205, 176);
-    opacity:0.8;
-    font-weight:bold;
-    text-decoration: underline;
-}
-
-footer a:hover{
-    color:#506fb8;
-    font-weight: bold;
-    opacity:0.99
-}
-footer .section {
-    max-width:1200px;
-}
-footer h1{
-    line-height:1.5;
-}
-
 .container-text {
     font-weight:600;
     color:rgb(55, 52, 65);
     margin-bottom: 20px;
+    padding:20px;
 
 }
 
@@ -262,8 +303,9 @@ footer h1{
 .cards{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap:20px;
+    gap:40px;
     padding:0 10px;
+    
     
 }
 .box-cards{
@@ -298,7 +340,9 @@ footer h1{
   margin-top: auto;
 }
 
-@media (max-width: 900px) {
+
+
+@media (max-width: 700px) {
   h2{
     font-size: 35px;
   }
@@ -310,6 +354,11 @@ footer h1{
   img {
     max-width: 400px;
   }
+
+  container {
+    max-width:700px;
+    margin: 10px 20px;
+  }
   #car {
     width:150px;
 }
@@ -317,5 +366,24 @@ footer h1{
     font-size: 16px;
     padding: 5px 16px;
   }
-
+  .header-cards{
+    grid-template-columns: 1fr;
+    margin:  20px;
+}
+.img-responsive-cards{
+    justify-content: center;
+    margin: 0 auto;
+}
+.description-text {
+    border-radius: 0px;
+}
+.cards {
+    grid-gap: 60px;
+}
+.grid {
+    grid-template-columns: 1fr;
+}
+.display-none{
+    display:none;
+}
 }
